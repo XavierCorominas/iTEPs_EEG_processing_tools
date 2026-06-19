@@ -33,6 +33,22 @@ close all;
 clc
 
 
+clear all;
+close all;
+clc
+
+% Path to external functions
+addpath(genpath('/home/xavi/Documents/PROJECTS/iTEPS/eeg_analyses_tool/TMS_EEG_preprocessing/'))
+
+% Path to eeglab
+addpath('/home/xavi/Documents/PROJECTS/iTEPS/eeg_analyses_tool/eeglab2025.0.0/')
+
+% Path to fieltrip
+addpath('/home/xavi/Documents/PROJECTS/iTEPS/eeg_analyses_tool/fieldtrip-20240110/')
+
+addpath('/home/xavi/Documents/PROJECTS/iTEPS/eeg_analyses_tool/TMS_EEG_preprocessing/AARATEPPipeline-master/Common/EEGAnalysisCode');
+
+
 %path eto eeglab
 addpath('.../eeglab2025.0.0/')
 
